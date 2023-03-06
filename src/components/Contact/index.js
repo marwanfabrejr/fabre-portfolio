@@ -107,9 +107,10 @@ const Contact = () => {
           Egypt,
           <br />
           Alexandria, <br />
-          Tosson St., Abou kir. <br />
+          Al Montazah,
+          <br /> Tosson, 25th St. <br />
           <br />
-          <span>marofabre780@gmail.com</span>
+          <span>marwanzayed4444@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[31.301354, 30.061856]} zoom={13}>

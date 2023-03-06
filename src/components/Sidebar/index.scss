@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 75px;
+  width: 90px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -46,7 +46,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: goldenrod;
 
         svg {
           opacity: 0;
@@ -90,6 +90,12 @@
       }
     }
 
+    a.experience-link {
+      &:after {
+        content: 'EXPERIENCE';
+      }
+    }
+
     a.contact-link {
       &:after {
         content: 'CONTACT';
@@ -104,7 +110,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: goldenrod;
       }
     }
   }
@@ -125,7 +131,7 @@
         line-height: 16px;
 
         &:hover svg {
-          color: #ffd700;
+          color: goldenrod;
         }
       }
     }

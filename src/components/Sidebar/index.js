@@ -5,14 +5,18 @@ import LogoS from '../../assets/images/logo-m.png'
 import LogoSubtitle from '../../assets/images/logo-sub1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faCodeBranch,
+  faAddressBook,
+  faBolt,
   faEnvelope,
-  faGear,
   faHome,
   faSuitcase,
   faUser,
 } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => {
   return (
     <div className="nav-bar">
@@ -38,7 +42,15 @@ const Sidebar = () => {
           className="skills-link"
           to="/skills"
         >
-          <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faBolt} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="experience-link"
+          to="/experience"
+        >
+          <FontAwesomeIcon icon={faAddressBook} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"
@@ -69,20 +81,20 @@ const Sidebar = () => {
         </li>
         <li>
           <a
+            href="https://github.com/marwanfabrejr"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.facebook.com/fabrejrx"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://app.netlify.com/teams/marwanfabrejr-m5pvci0"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faCodeBranch} color="#4d4d4e" />
           </a>
         </li>
       </ul>

@@ -4,11 +4,12 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-m.png'
 import Loader from 'react-loaders'
 import './index.scss'
+import Cubes from '../Cubes'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = [...'arwan']
-  const jobArray = [...'web developer.']
+  const jobArray = [...'Web Developer.']
 
   useEffect(() => {
     return setTimeout(() => {
@@ -42,10 +43,19 @@ const Home = () => {
             />
           </h1>
           <h2>Front End Developer</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
+          <Link to="/contact">
+            <ul>
+              <li>
+                Contact Me
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+            </ul>
           </Link>
         </div>
+        <Cubes />
       </div>
       <Loader type="pacman" />
     </>
