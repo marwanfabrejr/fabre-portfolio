@@ -1,52 +1,66 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/1/10.png",
+      "title": "Fabre TikTik",
+      "technologies": "React, Next.js, TypeScript, Tailwind CSS, Google Auth and Sanity.",
+      "description": "My TikTok Clone Application includes Google Auth, the ability to upload, publish, share, comment on, and like the videos; filtering by categories and advanced search functionalities, profile pages, suggested accounts, custom responsive design, and much more.",
+      "url": "https://videos-fabre.vercel.app/"
+    },
+    {
+      "cover": "/portfolio/1/9.png",
+      "title": "Fabre Metaverse",
+      "technologies": "React, Next.js, Framer Motion, and Tailwind CSS.",
+      "url": "https://mataverse-fabre.vercel.app/"
+    },
+    {
       "cover": "/portfolio/1/7.png",
-      "title": "Marwan's Portfolio",
-      "description": "React.js, Sass, Advanced Animation and 3D CSS.",
-      "url": "/"
+      "title": "Fabre Portfolio",
+      "technologies": "React, Sass, Animate.css, 3D CSS, EmailJS and Leafleat.js.",
+      "url": "https://fabre-portfolio.vercel.app/"
+    },
+    {
+      "cover": "/portfolio/1/5.png",
+      "title": "Fabre LyricFinder",
+      "technologies": "React, Context API, React Router, Axios.",
+      "url": "https://lyric-finder-theta.vercel.app/"
     },
     {
       "cover": "/portfolio/1/8.png",
       "title": "Marwan's Blog",
-      "description": "Next.js, React.js, React Markdown.",
+      "technologies": "Next.js, React, React Markdown.",
       "url": "https://github.com/marwanfabrejr/Fabre-s-Blog"
     },
     {
       "cover": "/portfolio/1/3.png",
       "title": "Fabre Cart",
-      "description": "React.js, Redux Toolkit, Axios.",
-      "url": "https://fabrecart.netlify.app/"
+      "technologies": "React, Redux Toolkit, Axios.",
+      "url": "https://cart-eight-mu.vercel.app/"
     },
     {
       "cover": "/portfolio/1/6.png",
       "title": "Cocktails",
-      "description": "React.js, Context API, React Router, Axios.",
-      "url": "https://fabrecocktailes.netlify.app/"
+      "technologies": "React, Context API, React Router, Axios.",
+      "url": "https://cocktails-ruby.vercel.app/"
     },
-    {
-      "cover": "/portfolio/1/5.png",
-      "title": "LyricFinder",
-      "description": "React.js, Context API, React Router, Axios. Active: https://cors-anywhere.herokuapp.com/corsdemo",
-      "url": "https://lyricfinderfabre.netlify.app"
-    },
+
     {
       "cover": "/portfolio/1/4.png",
       "title": "Fabre Expense Tracker",
-      "description": "React.js, Context API.",
-      "url": "https://fabreexpensetracker.netlify.app"
+      "technologies": "React, Context API.",
+      "url": "https://expense-tracker-six-navy.vercel.app/"
     },
     {
       "cover": "/portfolio/1/2.png",
       "title": "Fabre Cloud Hosting",
-      "description": "HTML, CSS (Responsive + Animation).",
-      "url": "https://fabrecloudhosting.netlify.app/"
+      "technologies": "HTML, CSS.",
+      "url": "https://cloud-hosting-alpha.vercel.app/"
     },
     {
       "cover": "/portfolio/1/1.png",
       "title": "Rick And Morty",
-      "description": "JavaScript, JQuery, CSS, HTML.",
-      "url": "https://rickknmorty.netlify.app/"
+      "technologies": "JavaScript, JQuery, CSS, HTML.",
+      "url": "https://rick-and-morty-eight-blond.vercel.app/"
     }
   ]
 }
