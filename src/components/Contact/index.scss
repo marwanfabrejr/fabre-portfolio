@@ -189,3 +189,26 @@ input:focus::-moz-placeholder {
 input:focus:-ms-input-placeholder {
   color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+  .info-map {
+    right: 14%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-map {
+    display: none;
+  }
+
+  .map-wrap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form input[type='text'],
+  .contact-form input[type='email'] {
+    font-size: 15px;
+  }
+}

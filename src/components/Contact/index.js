@@ -111,6 +111,8 @@ const Contact = () => {
           <br /> Tosson, 25th St. <br />
           <br />
           <span>marwanzayed4444@gmail.com</span>
+          <br></br>
+          <span>+20 012-765-996-73</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[31.301354, 30.061856]} zoom={13}>

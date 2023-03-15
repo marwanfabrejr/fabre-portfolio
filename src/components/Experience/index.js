@@ -16,7 +16,7 @@ const Experience = () => {
   return (
     <>
       {' '}
-      <div className="container skills-page">
+      <div className="container experience-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters

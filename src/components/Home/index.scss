@@ -127,3 +127,47 @@
     --n: 4;
   }
 }
+
+@media screen and (max-width: 667px) {
+  .home-page h1 {
+    font-size: 40px;
+    line-height: 43px;
+  }
+  .home-page h1 img {
+    margin-left: 12px;
+    width: 25px;
+  }
+  .home-page h2 {
+    margin-top: 10px;
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+  .home-page ul li {
+    font-size: 0.75em;
+  }
+  .home-page .text-zone {
+    top: 32%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-page h1 img {
+    margin-left: 11px;
+    width: 18px;
+  }
+  .text-animate-hover {
+    min-width: 7px;
+  }
+  .home-page h1 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+  .home-page h2 {
+    margin-top: 8px;
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+  .home-page .text-zone {
+    top: 50%;
+  }
+}

@@ -26,6 +26,10 @@ $primary-color: goldenrod;
   font-style: normal;
 }
 
+.App {
+  display: flex;
+}
+
 input,
 textarea {
   font-family: 'Helvetica Neue', sans-serif;

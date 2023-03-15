@@ -21,7 +21,7 @@
   .image-box {
     position: relative;
     flex: 1 1 20%;
-    height: 400px;
+    height: 370px;
     overflow: hidden;
     border-radius: 10px;
     max-width: calc(25% - 10px);
@@ -117,5 +117,60 @@
       bottom: 0;
       background: transparent;
     }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio-page .images-container {
+    gap: 35px;
+    flex-direction: column;
+  }
+  .portfolio-page .image-box {
+    flex: auto;
+    height: 728px;
+    max-width: none;
+  }
+  .portfolio-page h1.page-title {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-page .image-box {
+    flex: auto;
+    height: 490px;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .portfolio-page .image-box {
+    height: 395px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio-page {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+  }
+  .portfolio-page h1.page-title {
+    margin-left: 50px;
+  }
+  .portfolio-page .image-box {
+    height: 242px;
+  }
+  .description {
+    display: none;
+  }
+  .portfolio-page .image-box .title {
+    font-size: 20px;
+  }
+  .portfolio-page .image-box .technologies {
+    font-size: 11px;
+  }
+  .portfolio-page .image-box .content {
+    width: 92%;
   }
 }

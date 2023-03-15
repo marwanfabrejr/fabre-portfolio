@@ -641,3 +641,14 @@
     transform: translateY(-2000px);
   }
 }
+@media screen and (max-width: 1024px) {
+  .stage-cube-cont {
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stage-cube-cont {
+    display: none;
+  }
+}

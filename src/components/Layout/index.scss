@@ -1,12 +1,13 @@
 .page {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  position: relative;
+
+  width: 95vw;
 }
 
 .top-tags {
   bottom: auto;
-  top: 35px;
+  top: 6%;
 }
 
 .tags {
@@ -21,7 +22,7 @@
   opacity: 0.6;
   position: absolute;
   bottom: 0;
-  left: 120px;
+  left: 3%;
   font-size: 18px;
   font-family: 'La Belle Aurore', cursive;
   pointer-events: none;
@@ -49,6 +50,7 @@
 .container.contact-page,
 .container.about-page,
 .container.skills-page,
+.container.experience-page,
 .container.portfolio-page {
   h1 {
     font-size: 53px;
@@ -119,5 +121,86 @@
     &:hover {
       color: #fff;
     }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    width: 92vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 89vw;
+  }
+  .container.contact-page .text-zone,
+  .container.about-page .text-zone,
+  .container.skills-page,
+  .container.experience-page .text-zone,
+  .container.portfolio-page .text-zone {
+    width: 85%;
+  }
+  .tags {
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .home-page .text-zone {
+    left: 17%;
+  }
+  .container.contact-page .text-zone,
+  .container.about-page .text-zone,
+  .container.skills-page,
+  .container.experience-page .text-zone,
+  .container.portfolio-page .text-zone {
+    left: 17%;
+    width: 80%;
+  }
+  .page {
+    width: 87vw;
+    overflow: auto;
+  }
+  .tags {
+    height: 0%;
+  }
+
+  .container.about-page .text-zone,
+  .container.skills-page .text-zone {
+    top: 36%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page {
+    width: 77vw;
+  }
+  .tags {
+    left: 9%;
+  }
+  .container.contact-page h1,
+  .container.about-page h1,
+  .container.skills-page,
+  .container.experience-page h1,
+  .container.portfolio-page h1 {
+    font-size: 39px;
+  }
+  .container.contact-page .text-zone,
+  .container.about-page .text-zone,
+  .container.skills-page,
+  .container.experience-page .text-zone,
+  .container.portfolio-page .text-zone {
+    top: 53%;
+    left: 22%;
+    width: 71%;
+  }
+  .container.about-page .text-zone {
+    top: 50%;
+  }
+  .container.skills-page .text-zone {
+    top: 0%;
+    width: 80%;
   }
 }

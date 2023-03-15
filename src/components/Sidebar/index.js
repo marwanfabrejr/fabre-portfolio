@@ -69,7 +69,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
-      <ul>
+      <ul className="socialMedia">
         <li>
           <a
             href="https://www.linkedin.com/in/marwan-zayed-4b1554213/"
