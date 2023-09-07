@@ -1,6 +1,12 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/1/12.png",
+      "title": "Fabre Messenger",
+      "technologies": "Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher, Cloudinary.",
+      "url": "https://messenger-fabre.vercel.app/"
+    },
+    {
       "cover": "/portfolio/1/11.png",
       "title": "Fabre Car Showcase",
       "technologies": "React, Next.js, TypeScript, Tailwind CSS, Rapid API and Headless UI.",
