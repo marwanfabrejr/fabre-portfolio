@@ -107,17 +107,18 @@ const Contact = () => {
           Egypt,
           <br />
           Alexandria, <br />
-          Al Montazah,
-          <br /> Tosson, 25th St. <br />
+          El Ibrahimiyya.
+          <br />
           <br />
           <span>marwanzayed4444@gmail.com</span>
           <br></br>
-          <span>+20 012-765-996-73</span>
+          <span>+20 012-765-996-73 / +20 012-852-046-66</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[31.301354, 30.061856]} zoom={13}>
+          31.215077°N 29.92743°E
+          <MapContainer center={[31.2150774, 29.92743]} zoom={16}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[31.301354, 30.061856]}>
+            <Marker position={[31.2150774, 29.92743]}>
               <Popup>Marwan lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
