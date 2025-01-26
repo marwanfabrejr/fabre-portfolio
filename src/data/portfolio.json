@@ -1,27 +1,94 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/1/20.png",
+      "title": "MeduGate LMS",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",
+      "url": "https://sandbox.medugate.me/home"
+    },
+    {
+      "cover": "/portfolio/1/22.png",
+      "title": "Spimaco",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Framer Motion, Headless UI.",
+      "url": "https://spimaco.blueholding.co.uk/auth/login"
+    },
+    {
+      "cover": "/portfolio/1/21.png",
+      "title": "Skin Analyzer",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Rapid API, Headless UI.",
+      "url": "https://skin-analysis.blueholding.co.uk/"
+    },
+    {
+      "cover": "/portfolio/1/19.png",
+      "title": "Blend OM",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",
+      "url": "https://om.tryblend.net/en/"
+    },
+    {
+      "cover": "/portfolio/1/19.png",
+      "title": "Blend BM",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",
+      "url": "https://bm.tryblend.net/en/"
+    },
+    {
+      "cover": "/portfolio/1/18.png",
+      "title": "بلند Blend",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Headless UI.",
+      "url": "https://tryblend.net/"
+    },
+    {
+      "cover": "/portfolio/1/17.png",
+      "title": "Nice One Chatbot",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit.",
+      "url": "https://chatbot.inteligencia.me/"
+    },
+    {
+      "cover": "/portfolio/1/16.png",
+      "title": "Blue Booths",
+      "technologies": "Three.js, TypeScript, Tailwind CSS, Headless UI.",
+      "url": "https://booths-catalogue.blueholding.co.uk/"
+    },
+
+    {
+      "cover": "/portfolio/1/15.png",
+      "title": "Glow Up Game",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, face-api.js.",
+      "url": "https://gitlab.com/blueholdin/glow-up-game"
+    },
+    {
+      "cover": "/portfolio/1/14.png",
+      "title": "L'Oréal Derma Q&A Game",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, socket.io.",
+      "url": "https://loreal-derma-question-answer.blue-eventech.co.uk/doctor"
+    },
+    {
+      "cover": "/portfolio/1/13.png",
+      "title": "Odoo Intelligencia",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Headless UI.",
+      "url": "https://erp.inteligencia.me/en"
+    },
+    {
       "cover": "/portfolio/1/12.png",
       "title": "Fabre Messenger",
-      "technologies": "Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher, Cloudinary.",
+      "technologies": "Next.js, Tailwind CSS, Prisma, MongoDB, NextAuth, Pusher, Cloudinary.",
       "url": "https://messenger-fabre.vercel.app/"
     },
     {
       "cover": "/portfolio/1/11.png",
       "title": "Fabre Car Showcase",
-      "technologies": "React, Next.js, TypeScript, Tailwind CSS, Rapid API and Headless UI.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Rapid API and Headless UI.",
       "url": "https://fabre-car-showcase.vercel.app/"
     },
     {
       "cover": "/portfolio/1/10.png",
       "title": "Fabre TikTik",
-      "technologies": "React, Next.js, TypeScript, Tailwind CSS, Google Auth and Sanity.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Google Auth and Sanity.",
       "url": "https://videos-fabre.vercel.app/"
     },
     {
       "cover": "/portfolio/1/9.png",
       "title": "Fabre Metaverse",
-      "technologies": "React, Next.js, Framer Motion, and Tailwind CSS.",
+      "technologies": "Next.js, Framer Motion, and Tailwind CSS.",
       "url": "https://mataverse-fabre.vercel.app/"
     },
     {
@@ -39,7 +106,7 @@
     {
       "cover": "/portfolio/1/8.png",
       "title": "Marwan's Blog",
-      "technologies": "Next.js, React, React Markdown.",
+      "technologies": "Next.js, React Markdown.",
       "url": "https://github.com/marwanfabrejr/Fabre-s-Blog"
     },
     {

@@ -26,32 +26,37 @@ const Skills = () => {
             />
           </h1>
           <p>
-            Proficient in front-end development including technologies like
-            <span class="tech-tag"> JavaScript</span>,
-            <span class="tech-tag"> CSS</span>,
-            <span class="tech-tag"> HTML</span>,
-            <span class="tech-tag"> React</span>,
-            <span class="tech-tag"> Redux Toolkit</span>,
-            <span class="tech-tag"> Next.js</span>,
-            <span class="tech-tag"> TypeScript</span>,
-            <span class="tech-tag"> JQuery</span>,
-            <span class="tech-tag"> Bootstrap</span>,
-            <span class="tech-tag"> Sass</span>,
-            <span class="tech-tag"> Styled Components</span>,
-            <span class="tech-tag"> CSS Modules</span>,
-            <span class="tech-tag"> Axios</span>,
-            <span class="tech-tag"> Vitest</span>,
-            <span class="tech-tag"> Jest</span>,
-            <span class="tech-tag"> Git</span>,
-            <span class="tech-tag"> Github</span>,
-            <span class="tech-tag"> npm</span>,
-            <span class="tech-tag"> Yarn</span>, etc.
+            I’m all about building sleek and efficient web applications with the
+            latest front-end technologies. Here are my main tools of the trade:
           </p>
+          <ul>
+            <li>
+              <span class="tech-tag">Next.js</span> – Crafting scalable and
+              SEO-friendly web apps
+            </li>
+            <li>
+              <span class="tech-tag">TypeScript</span> – Bringing type safety
+              and cleaner code to the table
+            </li>
+            <li>
+              <span class="tech-tag">Tailwind CSS</span> – Designing responsive
+              and stylish interfaces effortlessly
+            </li>
+            <li>
+              <span class="tech-tag">Redux Toolkit</span> – Effortless state
+              management for complex apps
+            </li>
+            <li>
+              <span class="tech-tag">Socket.IO</span> – Adding real-time,
+              interactive features to enhance user experience
+            </li>
+          </ul>
           <p>
-            I’m not a designer but I have a good sense of aesthetics, and
-            experience in responsive design techniques. I put special effort
-            into optimizing my code and providing the best user experience. I
-            guarantee a commitment during work on projects.
+            While I’m not a designer, I have a keen eye for aesthetics and excel
+            in creating intuitive, responsive designs. I’m passionate about
+            writing optimized code and always strive to deliver the best user
+            experience. Committed and reliable, I bring energy and dedication to
+            every project I tackle.
           </p>
           <p>
             Visit my

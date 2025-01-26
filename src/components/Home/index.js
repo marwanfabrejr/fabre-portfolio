@@ -24,11 +24,12 @@ const Home = () => {
           <h1>
             <span className={letterClass}>Y</span>
             <span className={`${letterClass} _12`}>o</span>
-            <span className={`${letterClass} _13`}>,</span>
+            <span className={`${letterClass} _13`}>o</span>
+            <span className={`${letterClass} _14`}>,</span>
             <br />
-            <span className={`${letterClass} _14`}>I</span>
-            <span className={`${letterClass} _15`}>'</span>
-            <span className={`${letterClass} _16`}>m</span>
+            <span className={`${letterClass} _15`}>I</span>
+            <span className={`${letterClass} _16`}>'</span>
+            <span className={`${letterClass} _17`}>m</span>
             <img src={LogoTitle} alt="developer" />
             <AnimatedLetters
               letterClass={letterClass}

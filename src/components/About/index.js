@@ -25,18 +25,34 @@ const About = () => {
           </h1>
 
           <p>
-            Web Application Developer with proficient knowledge of entire
-            software development life cycle and React expertise, seeking to
-            learn and grow in a collaborative team environment.
-          </p>
-          <p align="LEFT">
-            I am skilled at JavaScript, CSS, and HTML to design the user
-            interface and deploy it effectively in applications.
+            I’m Marwan Zayed, a 25-year-old Software Developer with a strong
+            enthusiasm for web development. I graduated in Computer Science from
+            October 6 University’s Faculty of Information Systems and Computer
+            Sciences.
           </p>
           <p>
-            I primarily focus on writing clean, elegant, and efficient code. I
-            excel at creating pixel-perfect designs and working with
-            cross-browser compatibility issues.
+            After graduating, I joined Sphinx Publishing Company as a Front
+            Developer, where I created educational curricula, exercises, and
+            games for schools across the Middle East using JavaScript, HTML, and
+            CSS. This role strengthened my foundation in web development.
+          </p>
+          <p>
+            A year and eight months later, I began working at Blue Holding as a
+            Mid-Senior Front End Developer. Here, I develop web applications for
+            pharmaceutical and healthcare companies using Next.js, TypeScript,
+            and Tailwind CSS.
+          </p>
+          <p>
+            From January to September 2024, I also worked part-time at Blend, a
+            Saudi startup, where we built three successful applications to
+            streamline restaurant operations. This experience showcased the
+            impact of well-designed web solutions.
+          </p>
+
+          <p>
+            I’m always excited to embrace new challenges and grow in the
+            ever-evolving world of web development. Let’s create something
+            amazing together!
           </p>
         </div>
         <Cubes />

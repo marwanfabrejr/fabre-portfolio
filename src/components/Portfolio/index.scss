@@ -1,5 +1,5 @@
 .portfolio-page {
-  padding-left: 100px;
+  padding-left: 120px;
   padding-right: 50px;
   width: calc(100% - 150px);
   position: initial;
@@ -36,7 +36,7 @@
 
     .content {
       position: absolute;
-      width: 100%;
+      width: 91%;
       z-index: 3;
       padding: 10px 20px;
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -55,6 +55,7 @@
       font-size: 24px;
       font-weight: 500;
       line-height: 24px;
+      pointer-events: none;
     }
 
     .technologies {
@@ -62,6 +63,7 @@
       margin-bottom: 5px;
       color: #fff;
       font-weight: 700;
+      pointer-events: none;
     }
 
     .description {
@@ -146,6 +148,9 @@
 @media screen and (max-width: 667px) {
   .portfolio-page .image-box {
     height: 395px;
+  }
+  .content {
+    width: 100%;
   }
 }
 

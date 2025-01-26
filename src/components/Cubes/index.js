@@ -9,6 +9,9 @@ import {
   faSass,
 } from '@fortawesome/free-brands-svg-icons'
 import './index.scss'
+import { SiNextdotjs } from 'react-icons/si'
+import { RiTailwindCssFill } from 'react-icons/ri'
+import { FaReact } from 'react-icons/fa'
 
 const Cubes = () => {
   return (
@@ -18,16 +21,17 @@ const Cubes = () => {
       <div id="stars3"></div>
       <div className="cubespinner">
         <div className="face1">
-          <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+          {/* <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> */}
+          <SiNextdotjs />
         </div>
         <div className="face2">
-          <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+          <FaReact />
         </div>
         <div className="face3">
           <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
         </div>
         <div className="face4">
-          <FontAwesomeIcon icon={faSass} color="#cd6799" />
+          <RiTailwindCssFill />
         </div>
         <div className="face5">
           <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />

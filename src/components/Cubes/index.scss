@@ -34,11 +34,11 @@
 
   .face1 {
     transform: translateZ(100px);
-    color: #dd0031;
+    color: #000;
   }
   .face2 {
     transform: rotateY(90deg) translateZ(100px);
-    color: #f06529;
+    color: #58c4dc;
   }
   .face3 {
     transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
@@ -46,7 +46,7 @@
   }
   .face4 {
     transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-    color: #5ed4f4;
+    color: #38bdf8;
   }
   .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
