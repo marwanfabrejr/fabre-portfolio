@@ -31,6 +31,10 @@
   margin-left: -20px;
 }
 
+.lastP {
+  padding-bottom: 24px;
+}
+
 .container {
   width: 100%;
   will-change: contents;
@@ -86,7 +90,8 @@
     }
   }
 
-  p {
+  p,
+  .li {
     font-size: 15px;
     color: #fff;
     font-family: sans-serif;
@@ -144,6 +149,9 @@
   }
   .tags {
     left: 4%;
+  }
+  .text-zone {
+    width: 100% !important;
   }
 }
 
@@ -203,5 +211,11 @@
   .container.skills-page .text-zone {
     top: 0%;
     width: 80%;
+  }
+  .container {
+    top: 9%;
+  }
+  ul {
+    padding: 0 !important;
   }
 }

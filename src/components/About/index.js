@@ -49,7 +49,7 @@ const About = () => {
             impact of well-designed web solutions.
           </p>
 
-          <p>
+          <p className="lastP">
             I’m always excited to embrace new challenges and grow in the
             ever-evolving world of web development. Let’s create something
             amazing together!

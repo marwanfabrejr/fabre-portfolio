@@ -30,23 +30,23 @@ const Skills = () => {
             latest front-end technologies. Here are my main tools of the trade:
           </p>
           <ul>
-            <li>
+            <li className="li">
               <span class="tech-tag">Next.js</span> – Crafting scalable and
               SEO-friendly web apps
             </li>
-            <li>
+            <li className="li">
               <span class="tech-tag">TypeScript</span> – Bringing type safety
               and cleaner code to the table
             </li>
-            <li>
+            <li className="li">
               <span class="tech-tag">Tailwind CSS</span> – Designing responsive
               and stylish interfaces effortlessly
             </li>
-            <li>
+            <li className="li">
               <span class="tech-tag">Redux Toolkit</span> – Effortless state
               management for complex apps
             </li>
-            <li>
+            <li className="li">
               <span class="tech-tag">Socket.IO</span> – Adding real-time,
               interactive features to enhance user experience
             </li>
