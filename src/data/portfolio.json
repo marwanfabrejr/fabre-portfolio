@@ -48,7 +48,6 @@
       "technologies": "Three.js, TypeScript, Tailwind CSS, Headless UI.",
       "url": "https://booths-catalogue.blueholding.co.uk/"
     },
-
     {
       "cover": "/portfolio/1/15.png",
       "title": "Glow Up Game",
@@ -121,7 +120,6 @@
       "technologies": "React, Context API, React Router, Axios.",
       "url": "https://cocktails-ruby.vercel.app/"
     },
-
     {
       "cover": "/portfolio/1/4.png",
       "title": "Fabre Expense Tracker",
