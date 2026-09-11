@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
+import { useEffect } from 'react';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 const defaultIcon = L.icon({
-  iconUrl: "/images/marker-icon.png",
-  iconRetinaUrl: "/images/marker-icon-2x.png",
-  shadowUrl: "/images/marker-shadow.png",
+  iconUrl: '/images/marker-icon.png',
+  iconRetinaUrl: '/images/marker-icon-2x.png',
+  shadowUrl: '/images/marker-shadow.png',
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -22,12 +22,12 @@ export default function MapComponent() {
 
   return (
     <MapContainer
-      center={[31.2150774, 29.92743]}
+      center={[31.301633, 30.061549]}
       zoom={16}
-      style={{ width: "100%", height: "100%" }}
+      style={{ width: '100%', height: '100%' }}
     >
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <Marker position={[31.2150774, 29.92743]} icon={defaultIcon}>
+      <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
+      <Marker position={[31.301633, 30.061549]} icon={defaultIcon}>
         <Popup>Marwan lives here, come over for a cup of coffee :)</Popup>
       </Marker>
     </MapContainer>

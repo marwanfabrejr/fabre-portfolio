@@ -179,6 +179,7 @@ textarea {
 
 .address {
   white-space: nowrap;
+  /* padding: 0px 10px; */
 }
 
 /* Delay classes for animated letters */

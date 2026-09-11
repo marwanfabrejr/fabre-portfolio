@@ -1,19 +1,19 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import AnimatedLetters from "@/components/AnimatedLetters";
-import Cubes from "@/components/Cubes";
-import Loader from "@/components/Loader";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { useEffect, useState } from 'react';
+import AnimatedLetters from '@/components/AnimatedLetters';
+import Cubes from '@/components/Cubes';
+import Loader from '@/components/Loader';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function Experience() {
-  const [letterClass, setLetterClass] = useState("text-animate");
+  const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLetterClass("text-animate-hover");
+      setLetterClass('text-animate-hover');
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
@@ -30,31 +30,33 @@ export default function Experience() {
   const slide1 = (
     <>
       <h2>
-        <li>Mid-Senior Frontend Developer</li>
+        <li>Full Stack Developer</li>
       </h2>
       <h3>
-        Blue Holding<span> ( 11/2023 - Present ) </span>.
+        StoreZon L.L.C<span> ( 11/2025 - 07/2026 ) </span> - Dubai, UAE | Full
+        Time.
       </h3>
       <ul>
         <li>
-          Designing, developing, and implementing web applications using Next.js
-          and related front-end technologies, such as React, HTML, CSS, and
-          JavaScript.
+          Architected and built a full-featured freelancer marketplace from
+          scratch using Next.js, React, TypeScript, Tailwind CSS, Prisma ORM,
+          and PostgreSQL (Supabase), covering the complete hiring lifecycle from
+          project posting through payment and completion.
         </li>
         <li>
-          Collaborating with cross-functional teams, including designers,
-          front-end developers, and product managers, to gather and refine
-          requirements, ensuring alignment with overall business goals and
-          client needs.
+          Led end-to-end technical development, translating business
+          requirements into features, defining MVP priorities, and making
+          architecture and technology decisions.
         </li>
         <li>
-          Optimizing web applications for maximum performance, compatibility,
-          and responsiveness across various platforms and devices.
+          Implemented multi-role authentication and authorization for Clients,
+          Freelancers, and Admins using NextAuth, with an admin dashboard for
+          analytics, user management, and content moderation.
         </li>
         <li>
-          Staying up to date with the latest advancements in Next.js, React, and
-          front-end web development technologies, and identifying opportunities
-          to enhance existing applications or create new ones.
+          Built real-time messaging with Pusher and payment/escrow logic with
+          PayPal, integrating Cloudinary for media and Postmark for
+          transactional emails.
         </li>
       </ul>
     </>
@@ -66,26 +68,33 @@ export default function Experience() {
         <li>Frontend Developer</li>
       </h2>
       <h3>
-        Blend<span> ( 01/2024 - 9/2024 ) </span>.
+        Blue Holding<span> ( 11/2023 - 08/2025 ) </span> - Alexandria, Egypt |
+        Full Time.
       </h3>
       <ul>
         <li>
-          A Project to build three Connected applications: Menu Management App,
-          Order Management App, and &quot;Blender&quot; overview app to monitor overall
-          performance.
+          Collaborated with frontend, backend, UI/UX, DevOps, and product teams
+          to build web applications and interactive digital experiences for
+          pharmaceutical and cosmetics companies across the UAE, Saudi Arabia,
+          and other markets.
         </li>
         <li>
-          Developed and implemented these projects using Next.js, TypeScript,
-          and Tailwind CSS, delivering efficient and responsive solutions.
+          Developed complete frontend features from requirements through
+          implementation and delivery across a diverse range of client projects.
         </li>
         <li>
-          Collaborated closely with the team to ensure the applications met
-          business goals and user needs, receiving significant positive
-          feedback.
+          Contributed to a reusable LMS platform for corporate training, owning
+          approximately 80% of the frontend implementation and helping evolve it
+          into a customizable commercial solution.
         </li>
         <li>
-          Played a key role in optimizing performance, ensuring seamless
-          scalability and user satisfaction.
+          Developed interactive event experiences, including a card-matching
+          game that became one of the event&apos;s most engaging activities.
+        </li>
+        <li>
+          Took on senior-level frontend responsibilities, supporting teammates
+          and stepping into additional coordination duties when the team leader
+          was unavailable.
         </li>
       </ul>
     </>
@@ -97,41 +106,94 @@ export default function Experience() {
         <li>Frontend Developer</li>
       </h2>
       <h3>
-        Sphinx Publishing Company of Egypt along with Sayegh Publishing Library
-        of Lebanon<span> ( 02/2022 - 10/2023 ) </span>.
+        Blend<span> ( 01/2024 - 09/2024 ) </span> - Riyadh, Saudi Arabia | Part
+        Time.
       </h3>
       <ul>
         <li>
-          Develops and implements front-end code using HTML, CSS, JavaScript to
-          meet business requirements.
+          Helped build and launch a restaurant technology platform from the
+          ground up over a nine-month development cycle as one of two frontend
+          developers in a cross-functional engineering team.
         </li>
         <li>
-          Collaborates with a team to fix bugs in existing code, resolves
-          front-end and CSS issues, and designs new features for our web
-          applications.
+          Built three connected applications covering menu management, order
+          management, and the Blender dashboard.
         </li>
         <li>
-          Ensures that all codes are well documented, reusable, efficient, and
-          follow best practices.
+          Contributed approximately 35&ndash;50% of the frontend workload across
+          development phases, supporting real-time functionality, notifications,
+          and external integrations.
+        </li>
+      </ul>
+    </>
+  );
+
+  const slide4 = (
+    <>
+      <h2>
+        <li>Frontend Developer</li>
+      </h2>
+      <h3>
+        Redo<span> ( 01/2025 - 04/2025 ) </span> - Gouna, Egypt / Dublin,
+        Ireland | Part Time.
+      </h3>
+      <ul>
+        <li>
+          Joined an early-stage startup developing an AI-powered productivity
+          platform that turned work emails into actionable tasks and activities.
         </li>
         <li>
-          Improves site speed by optimizing images and reducing HTTP requests
-          when possible.
+          Took ownership of frontend development after the previous frontend
+          developer left, collaborating with the backend and product teams to
+          implement and refine features.
         </li>
         <li>
-          Implements responsive design techniques so the site could be viewed on
-          any device without issue.
+          Refactored and reorganized significant parts of the existing frontend
+          codebase, improving its structure and maintainability.
+        </li>
+        <li>
+          Expanded into backend and database development by learning and
+          applying PostgreSQL and Prisma ORM, gaining practical full-stack
+          experience.
+        </li>
+      </ul>
+    </>
+  );
+
+  const slide5 = (
+    <>
+      <h2>
+        <li>Frontend Developer</li>
+      </h2>
+      <h3>
+        Sphinx Publishing<span> ( 02/2022 - 11/2023 ) </span> - Alexandria,
+        Egypt | Full Time.
+      </h3>
+      <ul>
+        <li>
+          Built educational websites, applications, exercises, and interactive
+          learning experiences for digital textbooks and curricula.
+        </li>
+        <li>
+          Started with HTML, CSS, and JavaScript and progressively adopted React
+          and Next.js, applying them to production projects and delivering
+          complete features end-to-end.
+        </li>
+        <li>
+          Progressed into a senior contributor role, supporting teammates and
+          taking on team-lead responsibilities when the team leader was
+          unavailable.
         </li>
       </ul>
     </>
   );
 
   return (
-    <div className="container experience-page">
-      <div className="text-zone">
+    <div className='container experience-page'>
+      <div className='text-zone'>
         <h1>
           <AnimatedLetters
-            strArray={[..."Experience"]}
+            strArray={[...'Experience']}
             idx={7}
             letterClass={letterClass}
           />
@@ -140,20 +202,22 @@ export default function Experience() {
           <div>{slide1}</div>
           <div>{slide2}</div>
           <div>{slide3}</div>
+          <div>{slide4}</div>
+          <div>{slide5}</div>
         </Slider>
         <p>
           Visit my
           <a
-            target="_blank"
-            href="https://www.linkedin.com/in/marwan-zayed-4b1554213/"
+            target='_blank'
+            href='https://www.linkedin.com/in/marwan-zayed-4b1554213/'
           >
-            LinkedIn{" "}
+            LinkedIn{' '}
           </a>
           profile for more details. Also you can checkout my CV on this
           <a
-            target="_blank"
-            download=""
-            href="https://coral-shaun-69.tiiny.site"
+            target='_blank'
+            download=''
+            href='https://coral-shaun-69.tiiny.site'
           >
             link
           </a>

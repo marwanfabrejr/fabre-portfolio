@@ -1,26 +1,26 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import AnimatedLetters from "@/components/AnimatedLetters";
-import Cubes from "@/components/Cubes";
-import Loader from "@/components/Loader";
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import AnimatedLetters from '@/components/AnimatedLetters';
+import Cubes from '@/components/Cubes';
+import Loader from '@/components/Loader';
 
 export default function Home() {
-  const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = [..."arwan"];
-  const jobArray = [..."Web Developer."];
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const nameArray = [...'Marwan'];
+  const jobArray = [...'Frontend Developer.'];
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLetterClass("text-animate-hover");
+      setLetterClass('text-animate-hover');
     }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className="container home-page">
-      <div className="text-zone">
+    <div className='container home-page'>
+      <div className='text-zone'>
         <h1>
           <span className={letterClass}>Y</span>
           <span className={`${letterClass} _12`}>o</span>
@@ -30,8 +30,9 @@ export default function Home() {
           <span className={`${letterClass} _15`}>I</span>
           <span className={`${letterClass} _16`}>&apos;</span>
           <span className={`${letterClass} _17`}>m</span>
+          <br />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logo-m.png" alt="developer" />
+          {/* <img src="/images/logo-m.png" alt="developer" /> */}
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
@@ -44,8 +45,8 @@ export default function Home() {
             idx={22}
           />
         </h1>
-        <h2>Front End Developer</h2>
-        <Link href="/contact">
+        <h2>React & Next.js | Full Stack Capabilities</h2>
+        <Link href='/contact'>
           <ul>
             <li>
               Contact Me
