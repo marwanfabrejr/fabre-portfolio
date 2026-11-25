@@ -12,7 +12,7 @@ export default function AnimatedLetters({
   idx,
 }: AnimatedLettersProps) {
   return (
-    <span className="address">
+    <span>
       {strArray.map((char, i) => (
         <span key={char + i} className={`${letterClass} _${i + idx}`}>
           {char}

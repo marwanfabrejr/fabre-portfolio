@@ -1,6 +1,12 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/1/23.png",
+      "title": "Opanex Marketplace",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, NextAuth, Pusher, PayPal, Cloudinary.",
+      "url": "https://staging-opanex-marketplace.vercel.app/"
+    },
+    {
       "cover": "/portfolio/1/20.png",
       "title": "MeduGate LMS",
       "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",

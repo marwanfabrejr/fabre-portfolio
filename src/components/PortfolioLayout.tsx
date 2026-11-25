@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Sidebar from "@/components/Sidebar";
-import { config as fontAwesomeConfig } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
+import Sidebar from '@/components/Sidebar';
+import { config as fontAwesomeConfig } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 fontAwesomeConfig.autoAddCss = false;
 
@@ -12,17 +12,19 @@ export default function PortfolioLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="App">
+    <div className='flex h-screen w-full overflow-hidden bg-ink'>
       <Sidebar />
-      <div className="page">
-        <span className="tags top-tags">&lt;body&gt;</span>
+      <main className='relative flex-1 overflow-hidden'>
+        <span className='pointer-events-none absolute left-[3%] top-[6%] font-script text-[18px] text-goldenrod opacity-60'>
+          &lt;body&gt;
+        </span>
         {children}
-        <span className="tags bottom-tags">
+        <span className='pointer-events-none absolute bottom-0 left-[3%] font-script text-[18px] leading-none text-goldenrod opacity-60'>
           &lt;/body&gt;
           <br />
-          <span className="bottom-tag-html">&lt;/html&gt;</span>
+          <span className='-ml-5 whitespace-nowrap'>&lt;/html&gt;</span>
         </span>
-      </div>
+      </main>
     </div>
   );
 }
