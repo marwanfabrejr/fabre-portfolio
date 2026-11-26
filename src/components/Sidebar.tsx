@@ -74,7 +74,7 @@ export default function Sidebar() {
       <ul className='mb-5 flex list-none flex-col items-center p-0'>
         <li>
           <a
-            href='https://www.linkedin.com/in/marwan-ahmed-mohamed-hussien-4b155421'
+            href='https://www.linkedin.com/in/marwan-zayed-4b1554213/'
             target='_blank'
             rel='noreferrer'
             className='block p-[7px] text-[18px] leading-4'

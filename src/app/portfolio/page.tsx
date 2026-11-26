@@ -30,16 +30,19 @@ export default function Portfolio() {
                 className='portfolio-image absolute inset-0 z-[2] h-full w-full object-cover'
                 alt='portfolio'
               />
-              <div className='pointer-events-none absolute inset-0 z-[2] bg-linear-to-t from-black/90 via-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100' />
-              <div className='content absolute -bottom-[70px] z-[3] w-[92%] p-[10px_20px] transition-all duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)] group-hover:bottom-0 group-hover:bg-transparent'>
+              <div className='pointer-events-none absolute inset-0 z-[2] bg-linear-to-t from-black/90 via-black/50 to-transparent opacity-100 transition-opacity duration-300 sm:opacity-0 sm:group-hover:opacity-100' />
+              <div className='content absolute bottom-0 z-[3] w-[92%] p-[10px_20px] transition-all duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)] sm:-bottom-[70px] sm:group-hover:bottom-0'>
                 <p className='title m-0 text-[20px] font-medium leading-6 text-white md:text-2xl'>
                   {port.title}
                 </p>
                 <h4 className='technologies mb-1 mt-0 text-[12px] font-bold text-white md:text-sm'>
                   {port.technologies}
                 </h4>
+                <p className='description mb-2 mt-1 line-clamp-2 text-[11px] font-normal leading-4 text-white/80 md:text-xs'>
+                  {port.description}
+                </p>
                 <button
-                  className='btn mt-[30px] mb-[10px] h-10 cursor-pointer rounded border-2 border-goldenrod bg-transparent px-[23px] text-[14px] font-bold uppercase leading-[34px] text-white transition-all duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)] hover:-translate-y-[3px] hover:bg-goldenrod'
+                  className='btn mt-4 mb-[10px] h-10 cursor-pointer rounded border-2 border-goldenrod bg-transparent px-[23px] text-[14px] font-bold uppercase leading-[34px] text-white transition-all duration-300 ease-[cubic-bezier(0.645,0.045,0.355,1)] hover:-translate-y-[3px] hover:bg-goldenrod'
                   onClick={() => window.open(port.url)}
                 >
                   View

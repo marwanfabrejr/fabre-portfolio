@@ -32,31 +32,44 @@ export default function Experience() {
         <li>Full Stack Developer</li>
       </h2>
       <h3 className='text-[18px] text-goldenrod sm:text-[22px]'>
-        StoreZon L.L.C
-        <span className='text-white'> ( 11/2025 - 07/2026 ) </span>- Dubai, UAE
-        | Full Time.
+        StoreZon L.L.C.
+        <span className='text-white'> ( Nov 2025 – Jul 2026 ) </span>- Dubai,
+        UAE | Full-time.
       </h3>
       <ul className='px-6 text-[16px] text-white sm:px-[22px]'>
         <li className='my-3.5'>
-          Architected and built a full-featured freelancer marketplace from
-          scratch using Next.js, React, TypeScript, Tailwind CSS, Prisma ORM,
-          and PostgreSQL (Supabase), covering the complete hiring lifecycle from
-          project posting through payment and completion.
+          Built Opanex Marketplace, a freelancer marketplace, from scratch using
+          Next.js, React, TypeScript, Tailwind CSS, Prisma ORM, and PostgreSQL
+          (Supabase), covering the workflow from project posting through order
+          completion and payment.
         </li>
         <li className='my-3.5'>
-          Led end-to-end technical development, translating business
-          requirements into features, defining MVP priorities, and making
-          architecture and technology decisions.
+          Designed the PostgreSQL schema and Prisma models, including
+          relationships and queries, to support the platform&apos;s core
+          business workflows.
+        </li>
+        <li className='my-3.5'>
+          Developed server-side functionality and REST endpoints with Next.js
+          Route Handlers, connecting Prisma queries with application logic and
+          frontend features.
         </li>
         <li className='my-3.5'>
           Implemented multi-role authentication and authorization for Clients,
-          Freelancers, and Admins using NextAuth, with an admin dashboard for
-          analytics, user management, and content moderation.
+          Freelancers, and Admins using NextAuth, including email verification,
+          identity verification, and role-based access control.
         </li>
         <li className='my-3.5'>
-          Built real-time messaging with Pusher and payment/escrow logic with
-          PayPal, integrating Cloudinary for media and Postmark for
-          transactional emails.
+          Integrated PayPal payments and escrow workflows, including a platform
+          fee, automated payouts, and dispute handling. Built real-time
+          messaging with Pusher, including typing indicators, reactions, file
+          attachments, and read receipts, and integrated Cloudinary for media
+          management and Postmark for transactional email.
+        </li>
+        <li className='my-3.5'>
+          Built responsive interfaces, reusable components, and dashboards,
+          working directly with the business owner to translate requirements
+          into features, prioritize the MVP, estimate tasks, and contribute to
+          architecture, delivery, and deployment decisions.
         </li>
       </ul>
     </>
@@ -69,33 +82,38 @@ export default function Experience() {
       </h2>
       <h3 className='text-[18px] text-goldenrod sm:text-[22px]'>
         Blue Holding
-        <span className='text-white'> ( 11/2023 - 08/2025 ) </span>- Alexandria,
-        Egypt | Full Time.
+        <span className='text-white'> ( Nov 2023 – Aug 2025 ) </span>-
+        Alexandria, Egypt | Full-time.
       </h3>
       <ul className='px-6 text-[16px] text-white sm:px-[22px]'>
         <li className='my-3.5'>
           Collaborated with frontend, backend, UI/UX, DevOps, and product teams
           to build web applications and interactive digital experiences for
-          pharmaceutical and cosmetics companies across the UAE, Saudi Arabia,
-          and other markets.
+          pharmaceutical and cosmetics clients across the UAE and Saudi Arabia.
         </li>
         <li className='my-3.5'>
           Developed complete frontend features from requirements through
-          implementation and delivery across a diverse range of client projects.
+          delivery, translating UI/UX designs into responsive, user-friendly
+          interfaces.
         </li>
         <li className='my-3.5'>
-          Contributed to a reusable LMS platform for corporate training, owning
-          approximately 80% of the frontend implementation and helping evolve it
-          into a customizable commercial solution.
+          Owned approximately 80% of the frontend implementation of a reusable
+          Learning Management System (LMS), collaborating closely with backend
+          developers and designers to deliver and maintain the platform.
         </li>
         <li className='my-3.5'>
-          Developed interactive event experiences, including a card-matching
-          game that became one of the event&apos;s most engaging activities.
+          Contributed to evolving the LMS into a customizable commercial solution
+          used by multiple customers.
         </li>
         <li className='my-3.5'>
-          Took on senior-level frontend responsibilities, supporting teammates
-          and stepping into additional coordination duties when the team leader
-          was unavailable.
+          Built interactive event experiences, including a card-matching game
+          that became one of the event&apos;s most engaging activities and
+          received positive stakeholder feedback.
+        </li>
+        <li className='my-3.5'>
+          Supported frontend task distribution and teammates, taking on
+          additional coordination responsibilities when the team lead was
+          unavailable.
         </li>
       </ul>
     </>
@@ -108,23 +126,31 @@ export default function Experience() {
       </h2>
       <h3 className='text-[18px] text-goldenrod sm:text-[22px]'>
         Blend
-        <span className='text-white'> ( 01/2024 - 09/2024 ) </span>- Riyadh,
-        Saudi Arabia | Part Time.
+        <span className='text-white'> ( Jan 2024 – Sep 2024 ) </span>- Riyadh,
+        Saudi Arabia | Part-time.
       </h3>
       <ul className='px-6 text-[16px] text-white sm:px-[22px]'>
         <li className='my-3.5'>
-          Helped build and launch a restaurant technology platform from the
-          ground up over a nine-month development cycle as one of two frontend
-          developers in a cross-functional engineering team.
+          Contributed to building a restaurant technology platform from the
+          ground up over a nine-month development cycle as part of a
+          cross-functional engineering team.
         </li>
         <li className='my-3.5'>
-          Built three connected applications covering menu management, order
-          management, and the Blender dashboard.
+          Developed frontend features across three connected applications: Menu
+          Management, Order Management, and the Blender Dashboard.
         </li>
         <li className='my-3.5'>
-          Contributed approximately 35&ndash;50% of the frontend workload across
-          development phases, supporting real-time functionality, notifications,
-          and external integrations.
+          Integrated REST APIs to support menu operations, order workflows,
+          notifications, and real-time functionality.
+        </li>
+        <li className='my-3.5'>
+          Collaborated closely with a senior frontend developer and backend
+          engineers, following shared frontend architecture and implementation
+          practices.
+        </li>
+        <li className='my-3.5'>
+          Contributed to production features used in real restaurant operations
+          during the platform&apos;s initial market launch.
         </li>
       </ul>
     </>
@@ -137,27 +163,29 @@ export default function Experience() {
       </h2>
       <h3 className='text-[18px] text-goldenrod sm:text-[22px]'>
         Redo
-        <span className='text-white'> ( 01/2025 - 04/2025 ) </span>- Gouna,
-        Egypt / Dublin, Ireland | Part Time.
+        <span className='text-white'> ( Jan 2025 – Apr 2025 ) </span>- Gouna,
+        Egypt / Dublin, Ireland | Part-time.
       </h3>
       <ul className='px-6 text-[16px] text-white sm:px-[22px]'>
         <li className='my-3.5'>
-          Joined an early-stage startup developing an AI-powered productivity
-          platform that turned work emails into actionable tasks and activities.
-        </li>
-        <li className='my-3.5'>
-          Took ownership of frontend development after the previous frontend
-          developer left, collaborating with the backend and product teams to
-          implement and refine features.
+          Took over frontend ownership for an early-stage productivity platform
+          that organizes work emails into actionable tasks and activities.
         </li>
         <li className='my-3.5'>
           Refactored and reorganized significant parts of the existing frontend
           codebase, improving its structure and maintainability.
         </li>
         <li className='my-3.5'>
-          Expanded into backend and database development by learning and
-          applying PostgreSQL and Prisma ORM, gaining practical full-stack
-          experience.
+          Developed and refined user-facing features in collaboration with the
+          backend and product teams.
+        </li>
+        <li className='my-3.5'>
+          Worked with communication integrations connecting user channels such
+          as Gmail and WhatsApp to the platform.
+        </li>
+        <li className='my-3.5'>
+          Gained practical backend and database experience using PostgreSQL and
+          Prisma ORM.
         </li>
       </ul>
     </>
@@ -170,23 +198,28 @@ export default function Experience() {
       </h2>
       <h3 className='text-[18px] text-goldenrod sm:text-[22px]'>
         Sphinx Publishing
-        <span className='text-white'> ( 02/2022 - 11/2023 ) </span>- Alexandria,
-        Egypt | Full Time.
+        <span className='text-white'> ( Feb 2022 – Nov 2023 ) </span>-
+        Alexandria, Egypt | Full-time.
       </h3>
       <ul className='px-6 text-[16px] text-white sm:px-[22px]'>
         <li className='my-3.5'>
-          Built educational websites, applications, exercises, and interactive
-          learning experiences for digital textbooks and curricula.
+          Developed frontend features for educational websites and applications,
+          including interactive exercises, digital textbook activities, and
+          learning experiences for school curricula.
         </li>
         <li className='my-3.5'>
-          Started with HTML, CSS, and JavaScript and progressively adopted React
-          and Next.js, applying them to production projects and delivering
-          complete features end-to-end.
+          Started with HTML, CSS, and JavaScript, progressively adopting React
+          and Next.js to build and deliver production frontend features.
         </li>
         <li className='my-3.5'>
-          Progressed into a senior contributor role, supporting teammates and
-          taking on team-lead responsibilities when the team leader was
-          unavailable.
+          Collaborated with frontend and backend developers, team leads, and
+          project managers across educational publishing projects for different
+          markets.
+        </li>
+        <li className='my-3.5'>
+          Progressed to more complex frontend work, supported teammates,
+          coordinated feature work, and covered team-lead responsibilities when
+          needed.
         </li>
       </ul>
     </>
@@ -214,21 +247,12 @@ export default function Experience() {
             Visit my
             <a
               target='_blank'
-              href='https://www.linkedin.com/in/marwan-ahmed-mohamed-hussien-4b155421'
+              href='https://www.linkedin.com/in/marwan-zayed-4b1554213/'
               className='pl-1 text-goldenrod no-underline'
             >
               LinkedIn{' '}
             </a>
-            profile for more details. Also you can checkout my CV on this
-            <a
-              target='_blank'
-              download=''
-              href='https://coral-shaun-69.tiiny.site'
-              className='pl-1 text-goldenrod no-underline'
-            >
-              link
-            </a>
-            .
+            profile for more details.
           </p>
         </div>
       </div>

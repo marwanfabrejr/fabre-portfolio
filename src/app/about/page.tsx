@@ -25,42 +25,66 @@ export default function About() {
               letterClass={letterClass}
             />
           </h1>
-          <p className='text-[18px] text-white [animation:pulse_1s] [animation-delay:1.1s]'>
-            I&apos;m Marwan Zayed, a Frontend-focused Software Engineer with 4+
-            years of experience building production web applications using
-            React, Next.js, TypeScript, and Tailwind CSS. I hold a Bachelor of
-            Computer Science and Information Systems from October 6 University.
+          <p className='mb-4 text-[18px] text-white [animation:pulse_1s] [animation-delay:1.1s]'>
+            I&apos;m Marwan Zayed, a frontend-focused software engineer with 4+
+            years of experience building production web applications. My core
+            work is with React, Next.js, TypeScript, and Tailwind CSS, and I
+            have practical full-stack experience across Next.js Route Handlers,
+            REST APIs, PostgreSQL, Prisma ORM, authentication, and third-party
+            integrations. I hold a Bachelor of Computer Science and Information
+            Systems from October 6 University.
           </p>
-          <p className='text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
-            I started my career at Sphinx Publishing, building educational
-            websites, applications, exercises, and interactive learning
-            experiences for digital curricula and textbooks. Beginning with
-            HTML, CSS, and JavaScript, I progressively adopted React and Next.js
-            and applied them to production projects, growing into a senior
-            contributor role within the team.
+          <p className='mb-4 text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
+            I started my career at Sphinx Publishing, where I developed frontend
+            features for educational websites and applications, including
+            interactive exercises, digital textbook activities, and learning
+            experiences for school curricula. I began with HTML, CSS, and
+            JavaScript, then progressively adopted React and Next.js on
+            production projects. As my responsibilities grew, I took on more
+            complex frontend work, supported teammates, and coordinated feature
+            work when the team needed it.
           </p>
-          <p className='text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.3s]'>
-            I then joined Blue Holding as a Frontend Developer, where I built
-            web applications and interactive digital experiences for
-            pharmaceutical and cosmetics companies across the UAE, Saudi Arabia,
-            and other markets. I developed complete features from requirements
-            through delivery and contributed to a reusable, customizable LMS
-            platform for corporate training.
+          <p className='mb-4 text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.3s]'>
+            I then joined Blue Holding as a Frontend Developer, building web
+            applications and interactive digital experiences for pharmaceutical
+            and cosmetics clients across the UAE and Saudi Arabia. I worked
+            closely with designers, backend engineers, DevOps, and product
+            stakeholders to take features from requirements through delivery. I
+            owned approximately 80% of the frontend implementation of a reusable
+            Learning Management System (LMS), collaborating with backend
+            developers and designers, and contributed to interactive event
+            experiences for client campaigns.
           </p>
-          <p className='text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.4s]'>
-            Along the way, I worked part-time with Blend, a Saudi startup,
-            helping launch a restaurant technology platform from the ground up,
-            and with Redo, where I took ownership of the frontend of an
-            AI-powered productivity platform and expanded into backend
-            development with PostgreSQL and Prisma. Most recently, at StoreZon
-            in Dubai, I architected and built a full-featured freelancer
-            marketplace end-to-end, from authentication and real-time messaging
-            to payments and deployment.
+          <p className='mb-4 text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.4s]'>
+            Alongside my full-time role, I worked part-time with Blend, a Saudi
+            startup, contributing to a restaurant technology platform from the
+            ground up across menu management, order management, and dashboard
+            applications. I also joined Redo, an early-stage productivity
+            platform, where I took over frontend ownership, refactored
+            significant parts of the codebase, and worked on Gmail and WhatsApp
+            integrations. That role gave me practical experience with PostgreSQL
+            and Prisma and strengthened my ability to work across frontend and
+            backend concerns.
           </p>
-          <p className='pb-6 text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.5s]'>
-            I&apos;m always excited to embrace new challenges and grow in the
-            ever-evolving world of web development. Let&apos;s create something
-            amazing together!
+          <p className='mb-4 text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.5s]'>
+            Most recently, I worked at StoreZon in Dubai as a Full Stack
+            Developer, building Opanex Marketplace, a freelancer platform for
+            project posting, ordering, payments, and completion. I designed the
+            PostgreSQL schema and Prisma models, built REST endpoints with
+            Next.js Route Handlers, implemented multi-role authentication and
+            PayPal escrow workflows, and developed responsive interfaces and
+            dashboards. I worked directly with the business owner on
+            requirements, MVP priorities, estimates, and architecture and
+            delivery decisions, and I enjoy the collaboration involved in
+            turning a product idea into a working system.
+          </p>
+          <p className='mb-4 pb-6 text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.6s]'>
+            I&apos;m currently open to frontend and full-stack opportunities in
+            Egypt, the UAE, Saudi Arabia, the wider GCC, and remote teams. I&apos;m
+            particularly interested in product workflows, dashboards,
+            marketplaces, and systems where frontend and backend meet, and I
+            like working with designers, engineers, and business stakeholders to
+            solve problems with a clear user impact.
           </p>
         </div>
       </div>

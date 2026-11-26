@@ -27,89 +27,83 @@ export default function Skills() {
             />
           </h1>
           <p className='max-w-fit text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.1s]'>
-            I&apos;m a frontend-focused engineer with strong full-stack
-            capabilities, building sleek and efficient web applications with the
-            latest technologies. Here are my main tools of the trade:
+            I&apos;m a frontend-focused software engineer with strong full-stack
+            capabilities. I build responsive, maintainable web applications with
+            React and Next.js, and I&apos;m comfortable working across APIs,
+            databases, authentication, and third-party integrations.
           </p>
-          <ul className='list-none p-0'>
+          <ul className='list-none space-y-2 p-0'>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
-              <span className='font-medium text-goldenrod'>React</span> &ndash;
-              Building modular, reusable interfaces with a component-driven
-              approach
+              <span className='font-medium text-goldenrod'>Frontend</span>{' '}
+              &ndash; React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5,
+              CSS3, Tailwind CSS, Responsive Web Design.
             </li>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
-              <span className='font-medium text-goldenrod'>Next.js</span>{' '}
-              &ndash; Crafting scalable and SEO-friendly web apps
-            </li>
-            <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
-              <span className='font-medium text-goldenrod'>TypeScript</span>{' '}
-              &ndash; Bringing type safety and cleaner code to the table
-            </li>
-            <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
-              <span className='font-medium text-goldenrod'>Tailwind CSS</span>{' '}
-              &ndash; Designing responsive and stylish interfaces effortlessly
-            </li>
-            <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
-              <span className='font-medium text-goldenrod'>Redux Toolkit</span>{' '}
-              &ndash; Effortless state management for complex apps
+              <span className='font-medium text-goldenrod'>State &amp; UI</span>{' '}
+              &ndash; Redux Toolkit, Zustand, component-based architecture,
+              Framer Motion.
             </li>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
               <span className='font-medium text-goldenrod'>
-                PostgreSQL &amp; Prisma
+                Performance &amp; SEO
               </span>{' '}
-              &ndash; Modeling data and building full-stack features
+              &ndash; Server-Side Rendering (SSR), code splitting, lazy loading,
+              SEO metadata, Open Graph, structured data.
             </li>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
               <span className='font-medium text-goldenrod'>
-                REST APIs &amp; Route Handlers
+                Backend &amp; APIs
               </span>{' '}
-              &ndash; Designing robust and secure backend functionality
+              &ndash; Next.js Route Handlers, REST API development, server-side
+              logic.
             </li>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
               <span className='font-medium text-goldenrod'>
-                Auth &amp; Authorization
+                Databases &amp; ORM
               </span>{' '}
-              &ndash; Securing multi-role applications with NextAuth
+              &ndash; PostgreSQL, Prisma ORM, Supabase, database schema design,
+              data modeling.
             </li>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
               <span className='font-medium text-goldenrod'>
-                Real-time &amp; Payments
+                Authentication &amp; Authorization
               </span>{' '}
-              &ndash; Pusher, Socket.IO, PayPal, Cloudinary, Postmark
+              &ndash; NextAuth, authentication, authorization, role-based access
+              control.
+            </li>
+            <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
+              <span className='font-medium text-goldenrod'>Integrations</span>{' '}
+              &ndash; PayPal, Pusher, Socket.IO, Cloudinary, Postmark, Unibyl.
+            </li>
+            <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
+              <span className='font-medium text-goldenrod'>
+                Forms &amp; Validation
+              </span>{' '}
+              &ndash; React Hook Form, Zod.
             </li>
             <li className='max-w-fit text-[18px] text-white [animation:pulse_1s] [animation-delay:1.2s]'>
               <span className='font-medium text-goldenrod'>
                 Tools &amp; Platforms
               </span>{' '}
-              &ndash; Git, GitHub, Vercel, npm, Yarn
+              &ndash; Git, GitHub, Vercel, npm, Yarn.
             </li>
           </ul>
           <p className='max-w-fit text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.3s]'>
-            While I&apos;m not a designer, I have a keen eye for aesthetics and
-            excel in creating intuitive, responsive designs. I&apos;m passionate
-            about writing optimized code and always strive to deliver the best
-            user experience. Committed and reliable, I bring energy and
-            dedication to every project I tackle.
+            I care about clean component structure, predictable data flows, and
+            interfaces that work well across devices. I enjoy collaborating with
+            designers and backend engineers to turn product requirements into
+            maintainable features.
           </p>
           <p className='max-w-fit pb-6 text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.4s]'>
             Visit my{' '}
             <a
               target='_blank'
-              href='https://www.linkedin.com/in/marwan-ahmed-mohamed-hussien-4b155421'
+              href='https://www.linkedin.com/in/marwan-zayed-4b1554213/'
               className='pl-1 text-goldenrod no-underline'
             >
               LinkedIn{' '}
             </a>
-            profile for more details. Also you can checkout my CV on this
-            <a
-              target='_blank'
-              download=''
-              href='https://coral-shaun-69.tiiny.site'
-              className='pl-1 text-goldenrod no-underline'
-            >
-              link
-            </a>
-            .
+            profile for more details.
           </p>
         </div>
       </div>

@@ -45,7 +45,8 @@ export default function Home() {
             />
           </h1>
           <h2 className='mt-2 font-sans text-white text-[9px] font-normal tracking-[3px] text-goldenrod [animation:fadeIn_1s_1.8s_backwards] sm:mt-5 sm:text-[11px]'>
-            React & Next.js | Full Stack Capabilities
+            4+ years of experience with React &amp; Next.js, plus full-stack
+            capabilities.
           </h2>
           <Link href='/contact' className='pointer-events-none block'>
             <ul className='m-0 list-none p-0'>

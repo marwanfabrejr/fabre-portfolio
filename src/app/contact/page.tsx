@@ -58,12 +58,12 @@ export default function Contact() {
               />
             </h1>
             <p className='max-w-fit text-[18px] font-light text-white [animation:pulse_1s] [animation-delay:1.1s]'>
-              I am a frontend-focused engineer interested in roles with the
-              opportunity to work with the latest technologies on challenging
-              and diverse projects, and I am open to full-stack opportunities
-              and collaborations. However, if you have any other request or
-              question, don&apos;t hesitate to contact me using the form below
-              either.
+              I&apos;m a frontend-focused software engineer with full-stack
+              capabilities, based in Alexandria, Egypt. I&apos;m open to
+              frontend and full-stack opportunities in Egypt, the UAE, Saudi
+              Arabia, the wider GCC, and remote teams. If you&apos;d like to
+              discuss a role, a project, or a technical collaboration, send me a
+              message below.
             </p>
             <div className='contact-form mt-5 w-full'>
               <form ref={form} onSubmit={sendEmail}>
@@ -128,7 +128,9 @@ export default function Contact() {
             <span className='text-[16px]'>marwanzayed4444@gmail.com</span>
             <br />
             <span className='text-[16px]'>
-              +20 121 283 4430 / +971 56 564 1560
+              +20 121 284 3340 (Egypt)
+              <br />
+              +971 56 564 1560 (UAE WhatsApp)
             </span>
           </div>
           <div className='map-wrap h-full w-full bg-[rgba(8,253,216,0.1)] text-[12px] text-white'>

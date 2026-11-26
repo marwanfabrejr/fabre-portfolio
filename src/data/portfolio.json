@@ -3,145 +3,169 @@
     {
       "cover": "/portfolio/1/23.png",
       "title": "Opanex Marketplace",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, NextAuth, Pusher, PayPal, Cloudinary.",
+      "description": "A staging build of a freelancer marketplace covering project posting, ordering, payment, and completion, with multi-role dashboards, real-time messaging, and PayPal escrow workflows.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Prisma ORM, PostgreSQL (Supabase), NextAuth, Pusher, PayPal, Cloudinary",
       "url": "https://staging-opanex-marketplace.vercel.app/"
     },
     {
       "cover": "/portfolio/1/20.png",
       "title": "MeduGate LMS",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",
+      "description": "A reusable learning management system for corporate training, where I owned most of the frontend implementation alongside backend developers and designers.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI",
       "url": "https://sandbox.medugate.me/home"
     },
     {
       "cover": "/portfolio/1/22.png",
       "title": "Spimaco",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Framer Motion, Headless UI.",
+      "description": "A pharmaceutical web platform for Spimaco, built around a reusable component system and motion-led interactions.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Framer Motion, Headless UI",
       "url": "https://spimaco.blueholding.co.uk/auth/login"
     },
     {
       "cover": "/portfolio/1/21.png",
       "title": "Skin Analyzer",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Rapid API, Headless UI.",
+      "description": "A skin analysis web application that connects to a third-party API to support the analysis workflow.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, RapidAPI, Headless UI",
       "url": "https://skin-analysis.blueholding.co.uk/"
     },
     {
       "cover": "/portfolio/1/19.png",
       "title": "Blend OM",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",
+      "description": "An order management application within Blend's restaurant technology platform.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI",
       "url": "https://om.tryblend.net/en/"
     },
     {
       "cover": "/portfolio/1/19.png",
       "title": "Blend BM",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI.",
+      "description": "A connected management application within Blend's restaurant technology platform.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit, NextAuth, Headless UI",
       "url": "https://bm.tryblend.net/en/"
     },
     {
       "cover": "/portfolio/1/18.png",
       "title": "بلند Blend",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Headless UI.",
+      "description": "The marketing website for Blend's restaurant technology platform.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Headless UI",
       "url": "https://tryblend.net/"
     },
     {
       "cover": "/portfolio/1/17.png",
       "title": "Nice One Chatbot",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit.",
+      "description": "A chatbot interface for Nice One, with a state-managed conversation experience.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Redux Toolkit",
       "url": "https://chatbot.inteligencia.me/"
     },
     {
       "cover": "/portfolio/1/16.png",
       "title": "Blue Booths",
-      "technologies": "Three.js, TypeScript, Tailwind CSS, Headless UI.",
+      "description": "An interactive 3D booth catalogue for browsing exhibition booths.",
+      "technologies": "Three.js, TypeScript, Tailwind CSS, Headless UI",
       "url": "https://booths-catalogue.blueholding.co.uk/"
     },
     {
       "cover": "/portfolio/1/15.png",
       "title": "Glow Up Game",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, face-api.js.",
+      "description": "A browser-based face-analysis game.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, face-api.js",
       "url": "https://gitlab.com/blueholdin/glow-up-game"
     },
     {
       "cover": "/portfolio/1/14.png",
       "title": "L'Oréal Derma Q&A Game",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, socket.io.",
+      "description": "A live Q&A game for L'Oréal Derma with real-time interaction.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Socket.IO",
       "url": "https://loreal-derma-question-answer.blue-eventech.co.uk/doctor"
     },
     {
       "cover": "/portfolio/1/13.png",
       "title": "Odoo Intelligencia",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Headless UI.",
+      "description": "A custom Next.js interface for the Odoo ERP platform.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Headless UI",
       "url": "https://erp.inteligencia.me/en"
     },
     {
       "cover": "/portfolio/1/12.png",
       "title": "Fabre Messenger",
-      "technologies": "Next.js, Tailwind CSS, Prisma, MongoDB, NextAuth, Pusher, Cloudinary.",
+      "description": "A real-time messaging application with authentication, media sharing, and live conversations.",
+      "technologies": "Next.js, Tailwind CSS, Prisma, MongoDB, NextAuth, Pusher, Cloudinary",
       "url": "https://messenger-fabre.vercel.app/"
     },
     {
       "cover": "/portfolio/1/11.png",
       "title": "Fabre Car Showcase",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Rapid API and Headless UI.",
+      "description": "A car showcase application that retrieves vehicle data from RapidAPI.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, RapidAPI, Headless UI",
       "url": "https://fabre-car-showcase.vercel.app/"
     },
     {
       "cover": "/portfolio/1/10.png",
       "title": "Fabre TikTik",
-      "technologies": "Next.js, TypeScript, Tailwind CSS, Google Auth and Sanity.",
+      "description": "A video-sharing interface with Google authentication and Sanity-backed content.",
+      "technologies": "Next.js, TypeScript, Tailwind CSS, Google Auth, Sanity",
       "url": "https://videos-fabre.vercel.app/"
     },
     {
       "cover": "/portfolio/1/9.png",
       "title": "Fabre Metaverse",
-      "technologies": "Next.js, Framer Motion, and Tailwind CSS.",
+      "description": "An animated 3D-style landing experience.",
+      "technologies": "Next.js, Framer Motion, Tailwind CSS",
       "url": "https://mataverse-fabre.vercel.app/"
     },
     {
       "cover": "/portfolio/1/7.png",
       "title": "Fabre Portfolio",
-      "technologies": "React, Sass, Animate.css, 3D CSS, EmailJS and Leafleat.js.",
+      "description": "An earlier React version of this portfolio with animated transitions, CSS 3D elements, EmailJS contact, and Leaflet maps.",
+      "technologies": "React, Sass, Animate.css, CSS 3D, EmailJS, Leaflet.js",
       "url": "https://fabre-portfolio.vercel.app/"
     },
     {
       "cover": "/portfolio/1/5.png",
       "title": "Fabre LyricFinder",
-      "technologies": "React, Context API, React Router, Axios.",
+      "description": "A lyrics search application for finding songs and reading their lyrics.",
+      "technologies": "React, Context API, React Router, Axios",
       "url": "https://lyric-finder-theta.vercel.app/"
     },
     {
       "cover": "/portfolio/1/8.png",
       "title": "Marwan's Blog",
-      "technologies": "Next.js, React Markdown.",
+      "description": "A Markdown-based blog for publishing written content.",
+      "technologies": "Next.js, React Markdown",
       "url": "https://github.com/marwanfabrejr/Fabre-s-Blog"
     },
     {
       "cover": "/portfolio/1/3.png",
       "title": "Fabre Cart",
-      "technologies": "React, Redux Toolkit, Axios.",
+      "description": "A shopping cart application for browsing products and managing a cart.",
+      "technologies": "React, Redux Toolkit, Axios",
       "url": "https://cart-eight-mu.vercel.app/"
     },
     {
       "cover": "/portfolio/1/6.png",
       "title": "Cocktails",
-      "technologies": "React, Context API, React Router, Axios.",
+      "description": "A cocktail discovery application for exploring drink recipes.",
+      "technologies": "React, Context API, React Router, Axios",
       "url": "https://cocktails-ruby.vercel.app/"
     },
     {
       "cover": "/portfolio/1/4.png",
       "title": "Fabre Expense Tracker",
-      "technologies": "React, Context API.",
+      "description": "A personal expense tracking application for recording and reviewing spending.",
+      "technologies": "React, Context API",
       "url": "https://expense-tracker-six-navy.vercel.app/"
     },
     {
       "cover": "/portfolio/1/2.png",
       "title": "Fabre Cloud Hosting",
-      "technologies": "HTML, CSS.",
+      "description": "A static cloud hosting landing page.",
+      "technologies": "HTML, CSS",
       "url": "https://cloud-hosting-alpha.vercel.app/"
     },
     {
       "cover": "/portfolio/1/1.png",
       "title": "Rick And Morty",
-      "technologies": "JavaScript, JQuery, CSS, HTML.",
+      "description": "A Rick and Morty character browser for exploring characters from the show.",
+      "technologies": "JavaScript, jQuery, CSS, HTML",
       "url": "https://rick-and-morty-eight-blond.vercel.app/"
     }
   ]
