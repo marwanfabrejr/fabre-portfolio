@@ -47,7 +47,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Helvetica Neue';
+  /* font-family: 'La Belle Aurore'; */
+  letter-spacing: 2px;
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

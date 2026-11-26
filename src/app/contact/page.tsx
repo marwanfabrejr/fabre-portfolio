@@ -117,7 +117,7 @@ export default function Contact() {
         </div>
 
         <div className='relative h-[360px] w-full lg:h-auto'>
-          <div className='info-map absolute right-4 top-8 z-[999999] max-w-[315px] bg-black p-5 font-sans text-[17px] font-light text-white opacity-0 [animation:fadeIn_1s_1.5s_forwards] lg:right-[30%] lg:top-[30px]'>
+          {/* <div className='info-map absolute right-4 top-8 z-[999999] max-w-[315px] bg-black p-5 font-sans text-[17px] font-light text-white opacity-0 [animation:fadeIn_1s_1.5s_forwards] lg:right-[30%] lg:top-[30px]'>
             Marwan Zayed,
             <br />
             Egypt,
@@ -132,7 +132,7 @@ export default function Contact() {
               <br />
               +971 56 564 1560 (UAE WhatsApp)
             </span>
-          </div>
+          </div> */}
           <div className='map-wrap h-full w-full bg-[rgba(8,253,216,0.1)] text-[12px] text-white'>
             <MapComponent />
           </div>
