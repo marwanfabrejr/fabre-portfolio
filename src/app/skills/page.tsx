@@ -98,12 +98,21 @@ export default function Skills() {
             Visit my{' '}
             <a
               target='_blank'
+              rel='noopener noreferrer'
               href='https://www.linkedin.com/in/marwan-zayed-4b1554213/'
               className='pl-1 text-goldenrod no-underline'
             >
               LinkedIn{' '}
             </a>
-            profile for more details.
+            profile for more details, or{' '}
+            <a
+              href='/pdfs/Marwan_Zayed_CV.pdf'
+              download='Marwan_Zayed_CV.pdf'
+              className='text-goldenrod no-underline'
+            >
+              download my CV
+            </a>
+            .
           </p>
         </div>
       </div>
