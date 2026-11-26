@@ -97,10 +97,6 @@ export default function Experience() {
           decisions, prioritize MVP requirements, and plan development tasks.
         </li>
       </ul>
-
-      <p className='mt-4 text-[14px] font-semibold text-white'>
-        Redux Toolkit, React.js and +6 skills
-      </p>
     </>
   );
 
@@ -168,10 +164,6 @@ export default function Experience() {
           interfaces, and delivering reliable frontend solutions.
         </li>
       </ul>
-
-      <p className='mt-4 text-[14px] font-semibold text-white'>
-        Redux Toolkit, React.js and +3 skills
-      </p>
     </>
   );
 
@@ -235,10 +227,6 @@ export default function Experience() {
           real restaurants during its initial market launch.
         </li>
       </ul>
-
-      <p className='mt-4 text-[14px] font-semibold text-white'>
-        Redux Toolkit, React.js and +5 skills
-      </p>
     </>
   );
 
@@ -296,10 +284,6 @@ export default function Experience() {
           needed.
         </li>
       </ul>
-
-      <p className='mt-4 text-[14px] font-semibold text-white'>
-        Search Engine Optimization (SEO)
-      </p>
     </>
   );
 
